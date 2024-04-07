@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/twitter", (req, res) => {
-  res.send("Hello Twitter!!");
+  res.send("Hello Twittter!!");
 });
 app.get("/login", (req, res) => {
   res.send("<h1>Please login at chai aur chode </h1>");
