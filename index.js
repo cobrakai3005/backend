@@ -12,6 +12,9 @@ app.get("/twitter", (req, res) => {
 app.get("/login", (req, res) => {
   res.send("<h1>Please login at chai aur chode </h1>");
 });
+app.get("/sigin", (req, res) => {
+  res.send("<h1>Please signin at chai aur chode </h1>");
+});
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`);
